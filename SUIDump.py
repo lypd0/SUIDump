@@ -60,14 +60,16 @@ def main():
     print("\033[1;35m  +\033[0m .-. . . .-. .-. . . .  . .-. \033[1;35m+ ")
     print("\033[1;35m + \033[0m `-. | |  |  |  )| | |\/| |-' \033[1;35m + ")   
     print("\033[1;35m  +\033[0m `-' `-' `-' `-' `-' '  ` '   \033[1;35m+ ")
-    print("\033[35m        <\033[0m 1.01\033[35m @\033[0m lypd0.com\033[35m >     \n\033[0m")
+    print("\033[35m        <\033[0m 1.02\033[35m @\033[0m lypd0.com\033[35m >     \n\033[0m")
 
     parser = argparse.ArgumentParser(description="SUID Privilege Escalation Checker")
     parser.add_argument("-v", "--verbose", action="store_true", help="Print additional information during scan")
     args = parser.parse_args()
 
-    print(f"\033[35m[~]\033[0m Scanning...")
+    print(f"\033[35m[~]\033[0m Collecting SUID files...")
     suid_binaries = find_suid_binaries()
+    print(f"\033[35m[~]\033[0m Collected ({len(suid_binaries)}) SUID binaries.")
+    print(f"\033[35m[~]\033[0m Scanning...")
 
     if not suid_binaries:
         print("\033[31m[-]\033[0m No SUID binaries found.")

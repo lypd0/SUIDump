@@ -9,7 +9,7 @@
   <a href="#"><img alt="starsBDG" src="https://img.shields.io/github/stars/lypd0/SUIDump?style=for-the-badge"></a>
   <a href="#"><img alt="licenseBDG" src="https://img.shields.io/github/license/lypd0/SUIDump?style=for-the-badge"></a>
   <a href="#"><img alt="languageBDG" src="https://img.shields.io/badge/LANGUAGE-PYTHON-yellow?style=for-the-badge"></a>
-<h3 align="center">Usage on unauthorized servers is strictly forbidden</h3>
+<h3 align="center">Usage on unauthorized systems is strictly forbidden</h3>
 
 <p align="center"><img src="https://cdn.lypd0.com/SUIDump/demo.svg" alt="DEMO"></p>
 

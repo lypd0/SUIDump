@@ -56,6 +56,7 @@ or by using the following download&execute oneliner for dynamical deployment:
   curl https://cdn.lypd0.com/suidump > SUIDump.py && python3 SUIDump.py
 ```
 
+using custom domain to avoid token limitations, feel free to replace URL with github raw.
 
 ## Contributions
 Contributions, bug reports, and feature requests are welcome! Feel free to open an issue or submit a pull request.

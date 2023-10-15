@@ -1,5 +1,5 @@
 # SUIDump - SUID Privilege Escalation Checker
-# Version: 1.01
+# Version: 1.02
 # Author: lypd0
 # GitHub Repository: https://github.com/lypd0/SUIDump
 
